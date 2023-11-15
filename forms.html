@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <title>Form Input Attributes</title>
+        </head>
+
+        <body>
+                <form action="/action_page.php" autocomplete="on">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+                    <label for="selectgMaleender">Gender</label>
+                    <input type="radio" name="Gender"> Male
+                    <input type="radio" name="Gender"> Female<br><br>
+                    <label for="emails">Enter email address:</label>
+                    <input type="email" id="emails" name="emails" mutiple><br><br>
+                    <label for="telephone">Telephone</label>
+                    <input type="text" name="username" maxlength="10" id="telephone" placeholder="Enter Telephone"><br><br>
+     <select class="form-select" id="country" name="country">
+    <option value="">country</option>
+    <option value="Algeria">Algeria</option>
+    <option value="Angola">Angola</option>
+    <option value="Benin">Benin</option>
+    <option value="Botswana">Botswana</option>
+    <option value="Burkina Faso">Burkina Faso</option>
+    <option value="Burundi">Burundi</option>
+    <option value="Cameroon">Cameroon</option>
+    <option value="Cape Verde">Cape Verde</option>
+    <option value="Central African Republic">Central African Republic</option>
+    <option value="Chad">Chad</option>
+    <option value="Comoros">Comoros</option>
+    <option value="Congo">Congo</option>
+    <option value="Congo, Democratic Republic of the Congo">Congo, Democratic Republic of the Congo</option>
+    <option value="Cote D'Ivoire">Cote D'Ivoire</option>
+    <option value="Djibouti">Djibouti</option>
+    <option value="Egypt">Egypt</option>
+    <option value="Equatorial Guinea">Equatorial Guinea</option>
+    <option value="Eritrea">Eritrea</option>  
+    <option value="Ethiopia">Ethiopia</option>
+    <option value="Gabon">Gabon</option>
+    <option value="Gambia">Gambia</option>
+    <option value="Ghana">Ghana</option>
+    <option value="Guinea">Guinea</option>
+    <option value="Guinea-Bissau">Guinea-Bissau</option><br><br>
+                    <input list="hobby" name="Hobby">
+                 <datalist id="Hobbies">
+                    <option value="Sing">
+                    <option value="Dance">
+                    <option value="Sports">
+                    <option value="Sing">
+                    <option value="Read">
+                </datalist><br><br>
+                    <input type="submit" value="Submit">
+                    
+                  </form>
+        </body>
+        </html>
